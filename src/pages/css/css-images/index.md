@@ -7,7 +7,7 @@ title: CSS Images
 
 ####Code Sample</h4>
 
-```<img src="picture.jpg" alt="Picture" width="100" height="100">```
+```<img src="picture.jpg" alt="Picture" width="100" height="100" >```
 
 * **src:** It consists the value of the path to the required image</li>
 * **alt:** If the image is not displayed then an alternate text can be displayed using alt attribute.</li>
@@ -16,7 +16,13 @@ title: CSS Images
 
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
+In Bootstrap, there is one more thing in image refrences where you can add a class to the image tag and provide it with different browsers. The syntax is-
+
+```<img src="picture.jpg" alt="Picture" width="100" height="100" class='img-responsive'>```
+The above class will make the image responsive to the scales of the screen of host maachine. Some more classes are-
+.img-rounded-This class gives the image a rounded corner
+.img-circle-This class gives the image a rounded border
+.img-thumbnail-This class gives the image a thumbnail like shape.
 
 ##### Properties
 <a title="The image-orientation CSS property describes how to correct the default orientation of an image." href="/en-US/docs/Web/CSS/image-orientation"><code>image-orientation</code></a>
